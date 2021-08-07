@@ -25,5 +25,5 @@ src-git targets https://github.com/openwrt/targets.git
 src-git oldpackages http://git.openwrt.org/packages.git
 src-git freifunk https://github.com/freifunk/openwrt-packages.git
 #src-link custom /usr/src/openwrt/custom-feed
-
+src-git adguardhome https://github.com/uamrws/luci-app-adguardhome.git
 src-git management https://github.com/openwrt-management/packages.git
