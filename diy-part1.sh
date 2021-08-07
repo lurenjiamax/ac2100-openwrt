@@ -16,3 +16,14 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+src-git packages https://github.com/coolsnowwolf/packages
+src-git luci https://github.com/coolsnowwolf/luci
+src-git routing https://git.openwrt.org/feed/routing.git
+src-git telephony https://git.openwrt.org/feed/telephony.git
+#src-git video https://github.com/openwrt/video.git
+src-git targets https://github.com/openwrt/targets.git
+src-git oldpackages http://git.openwrt.org/packages.git
+src-git freifunk https://github.com/freifunk/openwrt-packages.git
+#src-link custom /usr/src/openwrt/custom-feed
+
+src-git management https://github.com/openwrt-management/packages.git
